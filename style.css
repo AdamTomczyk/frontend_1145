@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700&display=swap');
+@import url("components/button.css");
+@import url("components/weekcards.css");
+
+body{
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+}
+
+.banner{
+  width: 100vw;
+  height: 100vh;
+  background-image: url("https://images.unsplash.com/photo-1678911020402-650375a7776a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80");
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.container{
+  position: absolute;
+  margin-left: 20%;
+}
+
+
+.parent{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+
+.category-card{
+  height: 50vh;
+  width: 100vw;
+  background-image: url("https://images.unsplash.com/photo-1499028344343-cd173ffc68a9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80");
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.card-product{
+  width: 400px;
+  height: 300px;
+  background-color: orange;
+  display: flex;
+  align-items: center;
+}
+
+img{
+  height: 100%;
+  width: 30%;
+  object-fit: cover;
+}
+
+.description{
+  margin-left: 20px;
+}
+
+/* Media Querys for responsiveness 🚀 */
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+
+  .parent{
+    flex-direction: column;
+    display: none;
+  }
+}

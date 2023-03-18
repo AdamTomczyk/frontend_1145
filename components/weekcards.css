@@ -1,0 +1,17 @@
+.monday {
+  background-color: grey;
+  height: 200px;
+  width: 200px;
+}
+
+.tuesday {
+  background-color: rgb(176, 187, 53);
+  height: 200px;
+  width: 200px;
+}
+
+.wednesday {
+  background-color: rgb(187, 53, 153);
+  height: 200px;
+  width: 200px;
+}
